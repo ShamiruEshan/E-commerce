@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px #000000;
+    background-color: #0A0A23 ;
+}
+.nav-logo{
+    display: flex;
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li{
+    display: inline-block;
+    margin: 0 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.nav-menu li:hover{
+    transform: scale(1.1);
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: aliceblue;
+
+}
+.cityImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
